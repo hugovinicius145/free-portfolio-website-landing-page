@@ -20,6 +20,7 @@ export function Hero() {
         width={518}
         height={274}
         className="absolute top-12 left-0 md:top-36 md:left-1/2"
+        priority
       />
     </section>
   );
