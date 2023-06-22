@@ -6,7 +6,7 @@ export function About() {
       <div className="max-w-6xl mx-auto px-4 md:px-1.5 pb-36 mt-8 flex flex-col md:flex-row justify-center md:justify-between items-center gap-14">
         <div className="flex flex-col w-full md:w-1/2 space-y-6 text-center md:text-start items-center md:items-start">
           <h2 className="font-bold text-2xl md:text-6xl">
-            Let's get know <br />
+            Let&apos;s get know <br />
             about me closer
           </h2>
           <p className="text-lg text-gray-400 font-mono">
