@@ -8,7 +8,7 @@ export function Footer() {
           <span className="text-brand font-bold text-lg md:text-2xl">
             Get in Touch With Us
           </span>
-          <h2 className="font-bold text-2xl md:text-6xl">
+          <h2 className="font-bold text-2xl md:text-6xl" id="contact">
             info@aaronn.com
           </h2>
         </div>

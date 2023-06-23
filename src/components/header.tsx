@@ -11,15 +11,17 @@ export function Header() {
           <NextLink href={'/'} passHref>
             Home
           </NextLink>
-          <NextLink href={'/'} passHref>
+          <NextLink href={'#about'} scroll>
             About me
           </NextLink>
-          <NextLink href={'/'} passHref>
+          <NextLink href={'#projects'} scroll>
             My works
           </NextLink>
-          <button className="rounded-3xl border py-4 px-9 font-bold uppercase hover:bg-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
-            Contact
-          </button>
+          <NextLink href={'#contact'} scroll>
+            <button className="rounded-3xl border py-4 px-9 font-bold uppercase hover:bg-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand">
+              Contact
+            </button>
+          </NextLink>
         </div>
       </div>
     </header>

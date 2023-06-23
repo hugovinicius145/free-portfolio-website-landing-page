@@ -1,4 +1,5 @@
 import NextImage from "next/image";
+import NextLink from "next/link";
 import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 export function Hero() {
@@ -9,10 +10,12 @@ export function Hero() {
           Adaptive Logo Design <br />
           for Your Brand
         </h1>
-        <button className="bg-brand py-4 md:py-6 px-6 md:px-10 font-bold uppercase text-sm rounded-3xl flex items-center gap-3 ">
-          Explore works
-          <ArrowLongRightIcon width={24} />
-        </button>
+        <NextLink href={"#projects"}>
+          <button className="bg-brand py-4 md:py-6 px-6 md:px-10 font-bold uppercase text-sm rounded-3xl flex items-center gap-3 ">
+            Explore works
+            <ArrowLongRightIcon width={24} />
+          </button>
+        </NextLink>
       </div>
       <NextImage
         src={'https://res.cloudinary.com/hl-solu-es-digitais/image/upload/v1687474767/examples/AARONN%20%7C%20Free%20Portfolio%20Website%20Landing%20Page/Vector-8_ptepmv.png'}

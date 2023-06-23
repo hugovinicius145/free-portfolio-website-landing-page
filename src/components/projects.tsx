@@ -4,7 +4,7 @@ import { ProjectCard } from "./project-card";
 
 export function Projects() {
   return (
-    <section className="w-full">
+    <section className="w-full" id="projects">
       <div className="max-w-6xl mx-auto px-4 md:px-1.5 pb-36 mt-8 flex flex-col justify-center items-center space-y-10 md:space-y-14">
         <h2 className="font-bold text-2xl md:text-6xl">
           My Projects Highlight

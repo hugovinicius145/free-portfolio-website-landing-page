@@ -2,7 +2,7 @@ import NextImage from "next/image";
 
 export function About() {
   return (
-    <section className="w-full">
+    <section className="w-full" id="about">
       <div className="max-w-6xl mx-auto px-4 md:px-1.5 pb-36 mt-8 flex flex-col md:flex-row justify-center md:justify-between items-center gap-14">
         <div className="flex flex-col w-full md:w-1/2 space-y-6 text-center md:text-start items-center md:items-start">
           <h2 className="font-bold text-2xl md:text-6xl">
